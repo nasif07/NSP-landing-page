@@ -1,4 +1,5 @@
 import About from "./pages/About"
+import Achivement from "./pages/Achivement"
 import Banner from "./pages/Banner"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Banner></Banner>
       <About></About>
+      <Achivement></Achivement>
     </>
   )
 }

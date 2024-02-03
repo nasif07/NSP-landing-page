@@ -56,7 +56,7 @@ const About = () => {
                 </div>
                 <div className="relative flex w-full max-w-[506px] mx-auto">
                     <input style={{boxShadow: " 0px 8px 22px 0px rgba(20, 77, 138, 0.12)"}} className="rounded-full w-[506px] h-[56px] pl-6" placeholder="Your mail address...." type="email" />
-                    <button className="!absolute right-1 top-1 rounded-full text-white py-3 px-8 bg-[#1E4FFD]">Connect now!</button>
+                    <button className="!absolute right-1 top-1 rounded-full text-white py-3 px-8 bg-[#1E4FFD] font-bold">Connect now!</button>
                 </div>
             </div>
         </div>
