@@ -7,7 +7,7 @@ const Achivement = () => {
                 <div className="flex-1">
                     <h2 className="text-4xl text-white font-bold">Secure and lighting fast payments starts here!</h2>
                     <p className="text-white font-light text-[12px] pt-4 pb-[50px]">Ask us how we can help your business go further.</p>
-                    <button className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full">Get connected now!</button>
+                    <button style={{boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)"}} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full">Get connected now!</button>
                 </div>
                 <div>
                     <div className="flex gap-8">
@@ -20,11 +20,7 @@ const Achivement = () => {
                         <div className="-mt-10">
                             <SectionCard heading={"1B+"} subHeading={"Transactions"}></SectionCard>
                         </div>
-                        {/* <SectionCard heading={"12+"} subHeading={"Years of experience"}></SectionCard> */}
-                        <div style={{ boxShadow: "0px 8px 32px 0px rgba(0, 0, 0, 0.12)" }} className="h-[160px] w-[160px] bg-[#4A72FD] text-white font-Space_Grotesk rounded-[20px] flex flex-col justify-center items-center">
-                            <h1 className="font-bold text-[32px]">12+</h1>
-                            <p className="text-center">Years of <br /> experience</p>
-                        </div>
+                        <SectionCard heading={"12+"} subHeading={"Years of experience"}></SectionCard>
                     </div>
                 </div>
             </div>
