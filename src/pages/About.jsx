@@ -1,12 +1,8 @@
 import img1 from "../assets/Top up credit-bro 1.png"
 import img2 from "../assets/Online transactions-rafiki 1.png"
 import aeroIcon from "../assets/.png"
-import { useState } from "react";
-import { Input, Button } from "@material-tailwind/react";
 
 const About = () => {
-    const [email, setEmail] = useState("");
-    const onChange = ({ target }) => setEmail(target.value);
 
     return (
         <div className="bg-[#F4F2F2] font-Space_Grotesk">
@@ -58,25 +54,9 @@ const About = () => {
                     </div>
 
                 </div>
-                <div className="relative flex w-full max-w-[24rem] mx-auto">
-                    <Input
-                        type="email"
-                        label="Your mail address...."
-                        value={email}
-                        onChange={onChange}
-                        className="pr-20 rounded-full"
-                        containerProps={{
-                            className: " rounded-full",
-                        }}
-                    />
-                    <Button
-                        size="sm"
-                        color={email ? "gray" : "blue-gray"}
-                        disabled={!email}
-                        className="!absolute right-1 top-1 rounded"
-                    >
-                        Invite
-                    </Button>
+                <div className="relative flex w-full max-w-[506px] mx-auto">
+                    <input style={{boxShadow: " 0px 8px 22px 0px rgba(20, 77, 138, 0.12)"}} className="rounded-full w-[506px] h-[56px] pl-6" placeholder="Your mail address...." type="email" />
+                    <button className="!absolute right-1 top-1 rounded-full text-white py-3 px-8 bg-[#1E4FFD]">Connect now!</button>
                 </div>
             </div>
         </div>
