@@ -9,6 +9,9 @@ const Banner = () => {
         border: '1px solid #004E98'
         // Add more CSS properties as needed
     };
+    const shadow = {
+        boxShadow: '0px 8px 22px 0px rgba(20, 77, 138, 0.30)'
+    }
     return (
         <>
             <div className="min-h-screen font-Space_Grotesk">
@@ -29,10 +32,10 @@ const Banner = () => {
                     <img className="w-[768px] h-[432px] rounded-2xl" src={banner} alt="" />
                 </div>
                 <div className=" flex justify-center items-center m-12">
-                    <button className="bg-[#1E4FFD] px-[30px] py-[18px] text-white rounded-full font-bold text-[16px] ml-[142px] shadow-[#1E4FFD] shadow-sm">Talk to our team now!</button>
+                    <button style={shadow} className="bg-[#1E4FFD] px-[30px] py-[18px] text-white rounded-full font-bold text-[16px] ml-[142px]">Talk to our team now!</button>
                     <button className="text-[#1E4FFD] ml-4 underline">(Instant support)</button>
                 </div>
-                <div className="pt-20 pb-4">
+                <div className="py-20">
                     <Marquee gradient="true" speed={30}>
                         <div className='px-3'>
                             <img className="pr-24" src={marqueeImage} alt="Nike" />
