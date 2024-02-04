@@ -18,8 +18,6 @@ const Faq = () => {
                 </div>
                 <div>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 1}>
-                        {/* <AccordionHeader className="text-black" onClick={() => handleOpen(1)}>What is Material Tailwind?</AccordionHeader> */}
-
                         <div className="flex items-center justify-between cursor-pointer px-[30px] py-[26px]" onClick={() => handleOpen(1)}>
                             <a className="text-lg font-medium text-[#272932]">What sets North Summit Payments apart from other payment processors?</a>
                             {open === 1 ? <FaAngleUp className="text-2xl"/> : <FaAngleDown className="text-2xl"/>}
@@ -29,9 +27,6 @@ const Faq = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 2}>
-                        {/* <AccordionHeader className="text-black">
-                            How to use Material Tailwind?
-                        </AccordionHeader> */}
                         <div className="flex items-center justify-between px-[30px] py-[26px] cursor-pointer" onClick={() => handleOpen(2)}>
                             <h2 className="text-lg font-medium">How quickly can I get approved with North Summit Payments?</h2>
                             {open === 2 ? <FaAngleUp className="text-2xl"/> : <FaAngleDown className="text-2xl"/>}
@@ -41,9 +36,6 @@ const Faq = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 3}>
-                        {/* <AccordionHeader className="text-black" onClick={() => handleOpen(3)}>
-                            What can I do with Material Tailwind?
-                        </AccordionHeader> */}
                         <div open={open === 3} className="flex items-center justify-between cursor-pointer px-[30px] py-[26px]" onClick={() => handleOpen(3)}>
                             <h2 className="text-lg font-medium">Will I get a dedicated representative for my account?</h2>
                             {open === 3 ? <FaAngleUp className="text-2xl"/> : <FaAngleDown className="text-2xl"/>}
@@ -53,9 +45,6 @@ const Faq = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 4}>
-                        {/* <AccordionHeader className="text-black" onClick={() => handleOpen(3)}>
-                            What can I do with Material Tailwind?
-                        </AccordionHeader> */}
                         <div open={open === 4} className="flex items-center justify-between px-[30px] py-[26px] cursor-pointer" onClick={() => handleOpen(4)}>
                             <h2 className="text-lg font-medium">Can North Summit Payments help with chargebacks?</h2>
                             {open === 4 ? <FaAngleUp className="text-2xl"/> : <FaAngleDown className="text-2xl"/>}
@@ -65,9 +54,6 @@ const Faq = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 5}>
-                        {/* <AccordionHeader className="text-black" onClick={() => handleOpen(3)}>
-                            What can I do with Material Tailwind?
-                        </AccordionHeader> */}
                         <div open={open === 5} className="flex items-center justify-between px-[30px] py-[26px] cursor-pointer" onClick={() => handleOpen(5)}>
                             <h2 className="text-lg font-medium">Are the lower processing fees accompanied by hidden charges?</h2>
                             {open === 5 ? <FaAngleUp className="text-2xl"/> : <FaAngleDown className="text-2xl"/>}
@@ -77,9 +63,6 @@ const Faq = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 6}>
-                        {/* <AccordionHeader className="text-black" onClick={() => handleOpen(3)}>
-                            What can I do with Material Tailwind?
-                        </AccordionHeader> */}
                         <div open={open === 6} className="flex items-center justify-between px-[30px] py-[26px] cursor-pointer" onClick={() => handleOpen(6)}>
                             <h2 className="text-lg font-medium">How reliable are your merchant accounts?</h2>
                             {open === 6 ? <FaAngleUp className="text-2xl"/> : <FaAngleDown className="text-2xl"/>}
@@ -89,9 +72,6 @@ const Faq = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 7}>
-                        {/* <AccordionHeader className="text-black" onClick={() => handleOpen(3)}>
-                            What can I do with Material Tailwind?
-                        </AccordionHeader> */}
                         <div open={open === 7} className="flex items-center justify-between px-[30px] py-[26px] cursor-pointer" onClick={() => handleOpen(7)}>
                             <h2 className="text-lg font-medium">How do I start with North Summit Payments?
 </h2>
