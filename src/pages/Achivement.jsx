@@ -7,7 +7,7 @@ const Achivement = () => {
                 <div className="flex-1">
                     <h2 className="text-4xl text-white font-bold">Secure and lighting fast payments starts here!</h2>
                     <p className="text-white font-light text-[12px] pt-4 pb-[50px]">Ask us how we can help your business go further.</p>
-                    <button style={{boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)"}} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full">Get connected now!</button>
+                    <a href="#contact"><button style={{boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)"}} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full">Get connected now!</button></a>
                 </div>
                 <div>
                     <div className="flex gap-8">

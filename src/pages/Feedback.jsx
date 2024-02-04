@@ -12,7 +12,7 @@ const Feedback = () => {
                 <div>
                     <p className="text-[#1E4FFD] text-[20px]">Clients feedback</p>
                     <h1 className="text-4xl font-bold text-[#272932] pt-5 pb-11 max-w-[350px]">Still don’t believe us? Believe our clients!</h1>
-                    <button style={{ boxShadow: '0px 8px 22px 0px rgba(20, 77, 138, 0.30)' }} className="bg-[#1E4FFD] px-[30px] py-[18px] text-white rounded-full font-bold text-[16px]">Ready to get started?</button>
+                    <a href="#contact"><button style={{ boxShadow: '0px 8px 22px 0px rgba(20, 77, 138, 0.30)' }} className="bg-[#1E4FFD] px-[30px] py-[18px] text-white rounded-full font-bold text-[16px]">Ready to get started?</button></a>
                 </div>
                 <Swiper
                     rewind={true}

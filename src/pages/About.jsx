@@ -5,11 +5,11 @@ import aeroIcon from "../assets/.png"
 const About = () => {
 
     return (
-        <div className="bg-[#F4F2F2] font-Space_Grotesk">
+        <div className="bg-[#F4F2F2] font-Space_Grotesk md:px-10 px-4 lg:px-0">
             <div className="max-w-[1120px] mx-auto py-[100px]">
-                <div className="flex items-center gap-[132px]">
+                <div className="md:flex items-center md:gap-5 lg:gap-[132px]">
                     <div className="flex-1">
-                        <h1 className="text-[#272932] font-bold text-[36px]">Seamless Payment Processing: No Freezes, Low Fees, Pro Support</h1>
+                        <h1 className="text-[#272932] font-bold md:text-[30px] lg:text-[36px] md:leading-tight">Seamless Payment Processing: No Freezes, Low Fees, Pro Support</h1>
                         <div className="flex gap-3 items-center pt-[30px] pb-[15px]">
                             <img className="w-5" src={aeroIcon} alt="" />
                             <h4 className="text-[#272932] text-[16px] font-medium">3-Day Approval & Setup:</h4>
@@ -30,12 +30,12 @@ const About = () => {
                         <img className="h-[374px] w-[374px]" src={img1} alt="" />
                     </div>
                 </div>
-                <div className="flex items-center gap-[132px] pt-[150px] pb-[100px]">
+                <div className="md:flex items-center md:gap-5 lg:gap-[132px] pt-[150px] pb-[100px]">
                     <div className=" bg-white rounded-[36px]">
-                        <img className="h-[458px] w-[458px]" src={img2} alt="" />
+                        <img className="lg:h-[458px] lg:w-[458px]" src={img2} alt="" />
                     </div>
                     <div className="flex-1">
-                        <h1 className="text-[#272932] font-bold text-[36px]">Say hello to real support! Get a dedicated account rep for direct, anytime assistance.</h1>
+                        <h1 className="text-[#272932] font-bold md:text-[30px] lg:text-[36px] md:leading-tight">Say hello to real support! Get a dedicated account rep for direct, anytime assistance.</h1>
                         <div className="flex gap-3 items-center pt-[30px] pb-[15px]">
                             <img className="w-5" src={aeroIcon} alt="" />
                             <h4 className="text-[#272932] text-[16px] font-medium">Personal Account Rep:</h4>

@@ -13,11 +13,11 @@ function App() {
     <>
       <Banner></Banner>
       <About></About>
-      <Achivement></Achivement>
-      <Faq></Faq>
-      <Feedback></Feedback>
-      <ContactForm></ContactForm>
-      <Footer></Footer>
+      {/* <Achivement></Achivement> */}
+      {/* <Faq></Faq> */}
+      {/* <Feedback></Feedback> */}
+      {/* <ContactForm></ContactForm> */}
+      {/* <Footer></Footer> */}
     </>
   )
 }

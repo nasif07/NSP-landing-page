@@ -14,7 +14,8 @@ const Faq = () => {
                 <div>
                     <p className="text-[#1E4FFD] text-[20px]">FAQ</p>
                     <h1 className="text-4xl font-bold text-[#272932] pt-5 pb-11 max-w-[500px]">We imagined some of your questions!</h1>
-                    <button style={{ boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)" }} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full border-[#1E4FFD] border-[1px]">Get connected now!</button>
+                    
+                    <a href="#contact"><button style={{ boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)" }} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full border-[#1E4FFD] border-[1px]">Get connected now!</button></a>
                 </div>
                 <div>
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 1}>

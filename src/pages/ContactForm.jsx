@@ -4,7 +4,8 @@ const ContactForm = () => {
         outline: 'none'
     }
     return (
-        <div style={{ border: "1px solid #1E4FFD" }} className=" max-w-[1120px] mx-auto font-Space_Grotesk rounded-2xl py-[100px] px-[50px] mb-[150px]">
+        <section id="contact" className="pt-12">
+            <div style={{ border: "1px solid #1E4FFD" }} className=" max-w-[1120px] mx-auto font-Space_Grotesk rounded-2xl py-[100px] px-[50px] mb-[150px]">
             <div className="flex gap-8">
                 <div>
                     <p className="text-[#1E4FFD] text-[20px]">Your info</p>
@@ -31,6 +32,7 @@ const ContactForm = () => {
                 </div>
             </div>
         </div>
+        </section>
     );
 };
 
