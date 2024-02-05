@@ -30,9 +30,9 @@ const Banner = () => {
                         <a href="#contact"><button style={myInlineStyles} className="px-[22px] text-[#004E98] py-[10px] font-bold text-[12px]">Accept payments today!</button></a>
                     </div>
                 </div>
-                <div className="text-center max-w-[933px] mx-auto  px-4">
+                <div className="md:text-center max-w-[933px] mx-auto px-4">
                     <p className="text-[#004E98] font-light text-center mx-auto w-[210px] md:w-full">To All Business Owners Proccesesing Credit Cards:</p>
-                    <h1 className="text-[#272932] text-[25px] font-bold md:text-[46px] py-[10px] leading-none px-4 md:px-0">Your current payment processor may be a ticking time bomb for your business! </h1>
+                    <h1 className="text-[#272932] text-[33px] font-bold md:text-[46px] py-8 md:py-[10px] leading-none md:px-0">Your current payment processor may be a ticking time bomb for your business! </h1>
                     <p className="text-[#000] font-light text-[12px] max-w-[544px] mx-auto">Watch the video below to find out why billion dollar companies around the world use North Summit Payments to empower their payment systems and protect their businesses.</p>
                 </div>
                 <div className="flex items-center px-4 justify-center pt-3 md:pt-[50px]">

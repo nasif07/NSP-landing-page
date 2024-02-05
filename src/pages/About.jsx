@@ -6,10 +6,10 @@ const About = () => {
 
     return (
         <div className="bg-[#F4F2F2] font-Space_Grotesk md:px-10 px-4 lg:px-0">
-            <div className="max-w-[1120px] mx-auto py-[100px]">
+            <div className="max-w-[1120px] mx-auto py-[50px] md:py-[100px]">
                 <div className="md:flex items-center md:gap-5 lg:gap-[132px]">
                     <div className="flex-1">
-                        <h1 className="text-[#272932] font-bold md:text-[30px] lg:text-[36px] md:leading-tight">Seamless Payment Processing: No Freezes, Low Fees, Pro Support</h1>
+                        <h1 className="text-[#272932] font-bold text-2xl md:text-[30px] lg:text-[36px] md:leading-tight">Seamless Payment Processing: No Freezes, Low Fees, Pro Support</h1>
                         <div className="flex gap-3 items-center pt-[30px] pb-[15px]">
                             <img className="w-5" src={aeroIcon} alt="" />
                             <h4 className="text-[#272932] text-[16px] font-medium">3-Day Approval & Setup:</h4>
@@ -26,16 +26,16 @@ const About = () => {
                         </div>
                         <p className="text-[12px]">Say goodbye to holding your breath over frozen funds! With our lightning-fast 12-24 hour payouts, your cash flow stays flowing, hassle-free!</p>
                     </div>
-                    <div className="w-[445px] h-[445px] bg-white p-14 rounded-[36px]">
-                        <img className="h-[374px] w-[374px]" src={img1} alt="" />
+                    <div className="lg:w-[445px] lg:h-[445px] md:w-[400px] bg-white p-14 rounded-[36px] my-[50px] md:my-0">
+                        <img className="lg:h-[374px] lg:w-[374px]" src={img1} alt="" />
                     </div>
                 </div>
-                <div className="md:flex items-center md:gap-5 lg:gap-[132px] pt-[150px] pb-[100px]">
+                <div className="md:flex items-center md:gap-8 lg:gap-[132px] md:pt-[150px] md:pb-[100px]">
                     <div className=" bg-white rounded-[36px]">
-                        <img className="lg:h-[458px] lg:w-[458px]" src={img2} alt="" />
+                        <img className="lg:h-[458px] lg:w-[458px] md:h-[400px] md:w-[390px]" src={img2} alt="" />
                     </div>
-                    <div className="flex-1">
-                        <h1 className="text-[#272932] font-bold md:text-[30px] lg:text-[36px] md:leading-tight">Say hello to real support! Get a dedicated account rep for direct, anytime assistance.</h1>
+                    <div className="flex-1 my-[50px] md:my-0">
+                        <h1 className="text-[#272932] font-bold text-2xl md:text-[30px] lg:text-[36px] md:leading-tight">Say hello to real support! Get a dedicated account rep for direct, anytime assistance.</h1>
                         <div className="flex gap-3 items-center pt-[30px] pb-[15px]">
                             <img className="w-5" src={aeroIcon} alt="" />
                             <h4 className="text-[#272932] text-[16px] font-medium">Personal Account Rep:</h4>
@@ -55,8 +55,8 @@ const About = () => {
 
                 </div>
                 <div className="relative flex w-full max-w-[506px] mx-auto">
-                    <input style={{boxShadow: " 0px 8px 22px 0px rgba(20, 77, 138, 0.12)", outline: 'none'}} className="rounded-full w-[506px] h-[56px] pl-6" placeholder="Your mail address...." type="email" />
-                    <button className="!absolute right-1 top-1 rounded-full text-white py-3 px-8 bg-[#1E4FFD] font-bold">Connect now!</button>
+                    <input style={{boxShadow: " 0px 8px 22px 0px rgba(20, 77, 138, 0.12)", outline: 'none'}} className="rounded-full w-[506px] md:h-[56px] py-4 md:py-0 pl-[15px] md:pl-6" placeholder="Your mail address...." type="email" />
+                    <button className="!absolute right-1 top-1 rounded-full px-3 py-3 text-white md:py-3 md:px-8 bg-[#1E4FFD]  font-bold">Connect now!</button>
                 </div>
             </div>
         </div>
