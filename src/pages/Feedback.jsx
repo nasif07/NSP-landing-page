@@ -7,14 +7,14 @@ import icon from "../assets/”.svg"
 const Feedback = () => {
 
     return (
-        <div className="py-[50px] md:py-[100px] max-w-[1120px] mx-auto px-4 md:px-10 lg:px-0 font-Space_Grotesk">
+        <div className="py-[50px] md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
             <div className="md:flex lg:gap-20">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[#1E4FFD] text-[20px]">Clients feedback</p>
                     <h1 className="text-4xl font-bold text-[#272932] pt-5 pb-11 max-w-[350px]">Still don’t believe us? Believe our clients!</h1>
-                    <a href="#contact"><button style={{ boxShadow: '0px 8px 22px 0px rgba(20, 77, 138, 0.30)' }} className="bg-[#1E4FFD] px-[30px] py-[18px] mb-12  text-white rounded-full font-bold text-[16px]">Ready to get started?</button></a>
+                    <a href="#contact"><button style={{ boxShadow: '0px 8px 22px 0px rgba(20, 77, 138, 0.30)' }} className="bg-[#1E4FFD] px-[30px] py-[18px] mb-12  text-white rounded-full font-bold text-[16px]   hover:scale-105 duration-300">Ready to get started?</button></a>
                 </div>
-                <Swiper
+                <Swiper data-aos="fade-up" data-aos-duration="1000"
                     rewind={true}
                     navigation={true}
                     modules={[Navigation]}

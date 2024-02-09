@@ -30,17 +30,17 @@ const Banner = () => {
                         <a href="#contact"><button style={myInlineStyles} className="px-[22px] text-[#004E98] py-[10px] font-bold text-[12px]">Accept payments today!</button></a>
                     </div>
                 </div>
-                <div className="md:text-center max-w-[933px] mx-auto px-4">
+                <div data-aos="fade-up" data-aos-duration="1000" className="md:text-center max-w-[933px] mx-auto px-4">
                     <p className="text-[#004E98] font-light text-center mx-auto w-[210px] md:w-full">To All Business Owners Proccesesing Credit Cards:</p>
                     <h1 className="text-[#272932] text-[33px] font-bold md:text-[46px] py-8 md:py-[10px] leading-none md:px-0">Your current payment processor may be a ticking time bomb for your business! </h1>
                     <p className="text-[#000] font-light text-[12px] max-w-[544px] mx-auto">Watch the video below to find out why billion dollar companies around the world use North Summit Payments to empower their payment systems and protect their businesses.</p>
                 </div>
-                <div className="flex items-center px-4 justify-center pt-3 md:pt-[50px]">
+                <div data-aos="fade-up" data-aos-duration="1000" className="flex items-center px-4 justify-center pt-3 md:pt-[50px]">
                     <img className="md:w-[768px] md:h-[432px] rounded-2xl" src={banner} alt="" />
                 </div>
-                <div className=" md:flex justify-center items-center pt-6 md:py-12">
+                <div data-aos="fade-up" data-aos-duration="1000" className=" md:flex justify-center items-center pt-6 md:py-12">
                     <div className="flex justify-center">
-                        <a href="#contact"><button style={shadow} className="bg-[#1E4FFD] px-5 py-3 md:px-[30px] md:py-[18px] text-white rounded-full font-bold text-[16px] md:ml-[142px]">Talk to our team now!</button></a>
+                        <a href="#contact"><button style={shadow} className="bg-[#1E4FFD] px-5 py-3 md:px-[30px] md:py-[18px] text-white rounded-full font-bold text-[16px] md:ml-[142px]   hover:scale-105 duration-300">Talk to our team now!</button></a>
                     </div>
                     <div className="flex justify-center pt-4 md:pt-0">
                         <button className="text-[#1E4FFD] md:ml-4 underline">(Instant support)</button>

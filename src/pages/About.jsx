@@ -1,14 +1,17 @@
 import img1 from "../assets/Top up credit-bro 1.png"
 import img2 from "../assets/Online transactions-rafiki 1.png"
 import aeroIcon from "../assets/.png"
+import animation1 from '../assets/animation/Animation 1 (1).json';
+import animation2 from '../assets/animation/Animation 2 (2).json';
+import Lottie from "lottie-react";
 
 const About = () => {
 
     return (
-        <div className="bg-[#F4F2F2] font-Space_Grotesk md:px-10 px-4 lg:px-0">
-            <div className="max-w-[1120px] mx-auto py-[50px] md:py-[100px]">
-                <div className="md:flex items-center md:gap-5 lg:gap-[132px]">
-                    <div className="flex-1">
+        <div className="bg-[#F4F2F2] font-Space_Grotesk md:px-10 px-4 ">
+            <div className="max-w-[1160px] mx-auto py-[50px] md:py-[100px]">
+                <div className="flex flex-col-reverse md:flex-row  items-center md:gap-5 lg:gap-[132px]">
+                    <div   data-aos="fade-up" data-aos-duration="1000" className="flex-1 my-[50px] md:my-[50px]">
                         <h1 className="text-[#272932] font-bold text-2xl md:text-[30px] lg:text-[36px] md:leading-tight">Seamless Payment Processing: No Freezes, Low Fees, Pro Support</h1>
                         <div className="flex gap-3 items-center pt-[30px] pb-[15px]">
                             <img className="w-5" src={aeroIcon} alt="" />
@@ -26,15 +29,15 @@ const About = () => {
                         </div>
                         <p className="text-[12px]">Say goodbye to holding your breath over frozen funds! With our lightning-fast 12-24 hour payouts, your cash flow stays flowing, hassle-free!</p>
                     </div>
-                    <div className="lg:w-[445px] lg:h-[445px] md:w-[400px] bg-white p-14 rounded-[36px] my-[50px] md:my-0">
-                        <img className="lg:h-[374px] lg:w-[374px]" src={img1} alt="" />
+                    <div   data-aos="fade-up" data-aos-duration="1000" className="lg:w-[445px] lg:h-[445px] md:w-[400px] bg-white p-14 rounded-[36px]  md:my-0">
+                    <Lottie animationData={animation1} autoplay={true} loop={true}></Lottie>
                     </div>
                 </div>
                 <div className="md:flex items-center md:gap-8 lg:gap-[132px] md:pt-[150px] md:pb-[100px]">
-                    <div className=" bg-white rounded-[36px]">
-                        <img className="lg:h-[458px] lg:w-[458px] md:h-[400px] md:w-[390px]" src={img2} alt="" />
+                    <div data-aos="fade-up" data-aos-duration="1000" className=" bg-white rounded-[36px]">
+                    <Lottie animationData={animation2} autoplay={true} loop={true}></Lottie>
                     </div>
-                    <div className="flex-1 my-[50px] md:my-0">
+                    <div data-aos="fade-up" data-aos-duration="1000" className="flex-1 my-[50px] md:my-0">
                         <h1 className="text-[#272932] font-bold text-2xl md:text-[30px] lg:text-[36px] md:leading-tight">Say hello to real support! Get a dedicated account rep for direct, anytime assistance.</h1>
                         <div className="flex gap-3 items-center pt-[30px] pb-[15px]">
                             <img className="w-5" src={aeroIcon} alt="" />

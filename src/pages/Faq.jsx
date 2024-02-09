@@ -9,14 +9,14 @@ const Faq = () => {
     const [open, setOpen] = useState(0);
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
-        <div className="py-[50px] md:py-[100px] max-w-[1120px] mx-auto font-Space_Grotesk px-4 md:px-10 lg:px-0">
+        <div className="py-[50px] md:py-[100px] max-w-[1160px] mx-auto font-Space_Grotesk px-4 md:px-10">
             <div className="md:flex gap-10 lg:gap-20">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[#1E4FFD] text-[20px]">FAQ</p>
                     <h1 className="text-4xl font-bold text-[#272932] pt-5 pb-11 lg:max-w-[500px]">We imagined some of your questions!</h1>
-                    <a href="#contact"><button style={{ boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)" }} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full border-[#1E4FFD] border-[1px] mb-12 md:mb-0">Get connected now!</button></a>
+                    <a href="#contact"><button style={{ boxShadow: "0px 8px 22px 0px rgba(20, 77, 138, 0.30)" }} className="text-[#1E4FFD] font-bold bg-white px-[30px] py-[18px] rounded-full border-[#1E4FFD] border-[1px] mb-12 md:mb-0  hover:scale-105 duration-300">Get connected now!</button></a>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <Accordion className="bg-[#F4F2F2] rounded-[20px] mb-6" open={open === 1}>
                         <div className="flex items-center justify-between cursor-pointer px-[30px] py-[26px]" onClick={() => handleOpen(1)}>
                             <a className="text-lg font-medium text-[#272932]">What sets North Summit Payments apart from other payment processors?</a>

@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className=" bg-[#272932] px-4 md:py-10 font-Space_Grotesk">
+        <div className=" bg-[#272932] px-2 md:px-10 md:py-10 font-Space_Grotesk">
             <div className="md:flex justify-center items-center max-w-[1120px] mx-auto py-10 md:py-12 gap-10 lg:gap-32">
                 <div>
                     <h1 className="text-4xl font-bold text-white pb-6 md:pb-11 max-w-[350px]">Unlock your payments potential today</h1>
