@@ -9,7 +9,7 @@ const Faq = () => {
     const [open, setOpen] = useState(0);
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
-        <div className="py-[50px] md:py-[100px] max-w-[1160px] mx-auto font-Space_Grotesk px-4 md:px-10">
+        <div className="bg-white py-[50px] md:py-[100px] max-w-[1160px] mx-auto font-Space_Grotesk px-4 md:px-10">
             <div className="md:flex gap-10 lg:gap-20">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[#1E4FFD] text-[20px]">FAQ</p>

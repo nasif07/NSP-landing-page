@@ -7,7 +7,7 @@ import icon from "../assets/”.svg"
 const Feedback = () => {
 
     return (
-        <div className="py-[50px] md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
+        <div className="py-[50px] bg-white md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
             <div className="md:flex lg:gap-20">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[#1E4FFD] text-[20px]">Clients feedback</p>

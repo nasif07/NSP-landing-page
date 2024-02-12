@@ -1,9 +1,12 @@
 import SectionCard from "../components/sectionCard";
+import bgImg from "../assets/bg.svg"
 
 const Achivement = () => {
     return (
-        <div className="bg-[#1E4FFD] font-Space_Grotesk px-5 md:px-12">
-            <div className="max-w-[980px] mx-auto md:flex py-[50px] gap-[151px]">
+        <div style={{
+            backgroundImage: `url(${bgImg})`
+          }} className="bg-[#1E4FFD] bg-left-bottom md:bg-left bg-no-repeat font-Space_Grotesk px-5 md:px-12">
+            <div className="max-w-[980px] mx-auto md:flex items-center py-[50px] gap-[151px]">
                 <div data-aos="fade-up" data-aos-duration="1000" className="flex-1">
                     <h2 className="text-4xl text-white font-bold">Secure and lighting fast payments starts here!</h2>
                     <p className="text-white font-light text-[12px] pt-4 pb-[50px]">Ask us how we can help your business go further.</p>

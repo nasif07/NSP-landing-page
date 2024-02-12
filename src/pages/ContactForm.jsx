@@ -4,12 +4,12 @@ const ContactForm = () => {
         outline: 'none'
     }
     return (
-        <section id="contact" className="md:pt-12 px-4 md:px-10">
+        <section id="contact" className="md:pt-12 px-4 md:px-10 bg-white">
             <div style={{ border: "1px solid #1E4FFD" }} className=" max-w-[1160px] mx-auto font-Space_Grotesk rounded-2xl py-[50px] md:py-[100px] px-2 md:px-8 lg:px-[50px] mb-[150px]">
             <div className="md:flex gap-2 lg:gap-8">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <p className="text-[#1E4FFD] text-[20px]">Your info</p>
-                    <h1 className="text-5xl font-bold text-[#272932] pt-5 pb-11 md:max-w-[300px] lg:max-w-[410px]">Get started to accept payments now!</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-[#272932] pt-5 pb-11 md:max-w-[300px] lg:max-w-[410px]">Get started to accept payments now!</h1>
                 </div>
                 <div  data-aos="fade-up" data-aos-duration="1000" className="flex-auto">
                     <form className="space-y-6 md:space-y-8" action="">

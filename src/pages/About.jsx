@@ -1,7 +1,8 @@
 import img1 from "../assets/Top up credit-bro 1.png"
 import img2 from "../assets/Online transactions-rafiki 1.png"
 import aeroIcon from "../assets/.png"
-import animation1 from '../assets/animation/Animation 1 (1).json';
+// import animation1 from '../assets/animation/Animation 1 (1).json';
+import animation1 from "../assets/animation/animation1.json"
 import animation2 from '../assets/animation/Animation 2 (2).json';
 import Lottie from "lottie-react";
 
@@ -57,10 +58,12 @@ const About = () => {
                     </div>
 
                 </div>
-                <div className="relative flex w-full max-w-[506px] mx-auto">
-                    <input style={{boxShadow: " 0px 8px 22px 0px rgba(20, 77, 138, 0.12)", outline: 'none'}} className="rounded-full w-[506px] md:h-[56px] py-4 md:py-0 pl-[15px] md:pl-6" placeholder="Your mail address...." type="email" />
-                    <button className="!absolute right-1 top-1 rounded-full px-3 py-3 text-white md:py-3 md:px-8 bg-[#1E4FFD]  font-bold">Connect now!</button>
+                <div className=" flex justify-center">
+                    {/* <input style={{boxShadow: " 0px 8px 22px 0px rgba(20, 77, 138, 0.12)", outline: 'none'}} className="rounded-full w-[506px] md:h-[56px] py-4 md:py-0 pl-[15px] md:pl-6" placeholder="Your mail address...." type="email" />
+                    <button className="!absolute right-1 top-1 rounded-full px-3 py-3 text-white md:py-3 md:px-8 bg-[#1E4FFD]  font-bold">Connect now!</button> */}
+                    <a href="#contact"><button style={{ boxShadow: '0px 8px 22px 0px rgba(20, 77, 138, 0.30)' }} className="bg-[#1E4FFD] px-[30px] py-[18px]  text-white rounded-full font-bold text-[16px]   hover:scale-105 duration-300">Connect now!</button></a>
                 </div>
+                
             </div>
         </div>
     );
