@@ -29,7 +29,7 @@ const Feedback = () => {
                             <div className='flex justify-center'>
                                 <img className=' rounded-full' src={avatar} alt="" />
                             </div>
-                            <p className='text-[#272932] py-6 md:py-10 px-12 md:px-5 lg:px-0 max-w-[380px] mx-auto text-justify md:text-center text-[14px] leading-tight'>“We have been able to save both time and money using North Summit Payments to manage our merchant processing at our facility.  Their expertise and recommendations to credit card processing, payment solutions and point of sale have added value to our business operations.  As well, they have become a valued partner to our organization.”</p>
+                            <p className='text-[#272932] py-6 md:py-10 px-12 md:px-5 lg:px-0 max-w-[380px] mx-auto text-center md:text-center text-[14px] leading-tight md:text-base md:leading-[24px]'>“We have been able to save both time and money using North Summit Payments to manage our merchant processing at our facility.  Their expertise and recommendations to credit card processing, payment solutions and point of sale have added value to our business operations.  As well, they have become a valued partner to our organization.”</p>
                             <h4 className='font-medium text-center'>- Elevate The Community</h4>
                             {/* <p className='font-light text-center'></p> */}
                         </div>
@@ -42,7 +42,7 @@ const Feedback = () => {
                             <div className='flex justify-center'>
                                 <img className=' rounded-full' src={avatar} alt="" />
                             </div>
-                            <p className='text-[#272932] py-6 md:py-10 px-12 md:px-5 lg:px-0 max-w-[380px] mx-auto text-justify md:text-center'>“North Summit Payments was able to decrease the rate we were paying our credit card processor by 1.5% (a decrease of 43%) resulting in enormous savings!”</p>
+                            <p className='text-[#272932] py-6 md:py-10 px-12 md:px-5 lg:px-0 max-w-[380px] mx-auto text-center md:text-center'>“North Summit Payments was able to decrease the rate we were paying our credit card processor by 1.5% (a decrease of 43%) resulting in enormous savings!”</p>
                             <h4 className='font-medium text-center'>- Grove Medical</h4>
                             {/* <p className='font-light text-center'></p> */}
                         </div>
@@ -55,7 +55,7 @@ const Feedback = () => {
                             <div className='flex justify-center'>
                                 <img className=' rounded-full' src={avatar} alt="" />
                             </div>
-                            <p className='text-[#272932] py-6 md:py-10 px-12 text-justify md:px-5 lg:px-0 max-w-[380px] mx-auto md:text-center text-[14px] leading-tight'>“Awesome Experience. North Summit Payments makes the whole credit card payments experience so easy and simple. I never have any doubt as to where I should go for any information I may need and the customer service with NSP is awesome. The savings were much more then we expected as well as we are savings thousands annually not hundreds.</p>
+                            <p className='text-[#272932] py-6 md:py-10 px-12 text-center md:px-5 lg:px-0 max-w-[380px] mx-auto md:text-center text-[14px] leading-tight md:text-base md:leading-[24px]'>“Awesome Experience. North Summit Payments makes the whole credit card payments experience so easy and simple. I never have any doubt as to where I should go for any information I may need and the customer service with NSP is awesome. The savings were much more then we expected as well as we are savings thousands annually not hundreds.</p>
                             <h4 className='font-medium text-center'>-Pandora</h4>
                             {/* <p className='font-light text-center'></p> */}
                         </div>
@@ -68,7 +68,7 @@ const Feedback = () => {
                             <div className='flex justify-center'>
                                 <img className=' rounded-full' src={avatar} alt="" />
                             </div>
-                            <p className='text-[#272932] py-6 md:py-10 px-12 text-justify md:px-5 lg:px-0 max-w-[380px] mx-auto md:text-center text-[14px]'>“We have been with North Summit Payments for over 10 years.  We were one of the first businesses to use Clover Flex and we love it.  I would strongly recommend NSP to any business that accepts credit card payments”</p>
+                            <p className='text-[#272932] py-6 md:py-10 px-12 text-center md:px-5 lg:px-0 max-w-[380px] mx-auto md:text-center text-[14px] md:text-base md:leading-[24px]'>“We have been with North Summit Payments for over 10 years.  We were one of the first businesses to use Clover Flex and we love it.  I would strongly recommend NSP to any business that accepts credit card payments”</p>
                             <h4 className='font-medium text-center'>Smiles in Motion – Dr. Allyson Bourke</h4>
                             <p className='font-light text-center'> – Orthodontist</p>
                         </div>

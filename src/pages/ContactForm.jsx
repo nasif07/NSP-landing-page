@@ -1,4 +1,3 @@
-
 const ContactForm = () => {
     const inputStyle = {
         outline: 'none'
