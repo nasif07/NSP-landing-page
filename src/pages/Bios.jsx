@@ -9,23 +9,31 @@ const Bios = () => {
       desc: "Craig Brockie brings 15 years of business development/relationship expertise to North Summit Payments.  With his resources, Mr. Brockie provides merchants access to the payment industries leading solutions with the lowest rates. If you are looking to grow your business and maximize profits, the North Summit Payments team is here to help.",
       name: "Craig Brockie",
       role: "Partner & Co-Founder",
-      tel: "+123 456 7890",
+      experience: 15,
       email: "Mirela@NSPPay.com",
+
     },
     {
       image: "https://example.com/image1.jpg",
       desc: "Darren Brockie has over 15 years experience in the payment processing industry and for the last 10 years has been vital to the growth of the world’s largest payment acquirer. Darren’s experience includes working with regional, national and global-sized merchants. Whether you are a single location business or a fortune 500 company looking to accept credit, debit or other forms of electronic payment, Darren has the skills and expertise to service you.",
       name: "Darren Brockic",
       role: "Managing Director & Co-Founder",
-      tel: "+123 456 7890",
+      experience: 15,
       email: "Mirela@NSPPay.com",
+    },
+    {
+      image: "https://example.com/image5.jpg",
+      desc: "For the past eight years, I've dedicated myself to the dynamic realm of the payment industry. Serving as the Vice President of North Summit Payments, I oversee our esteemed US and Canadian referral partner channels, fostering strategic relationships for mutual success. My responsibilities extend to the meticulous management of our expansive 3000-strong merchant customer base, ensuring their satisfaction and loyalty. Collaborating seamlessly with our sales onboarding and tech teams, I am deeply committed to driving business growth through innovative solutions and unwavering support.",
+      name: "Shayne Christie",
+      role: "Vice President",
+      tel: "647-409-9895",
+      email: "Shayne@NSPPay.com",
     },
     {
       image: "https://example.com/image1.jpg",
       desc: "Driven by a commitment to excellence, Mirela prioritizes delivering quality service in every aspect of her work. She understands the importance of meeting deadlines and goes above and beyond to ensure that all tasks are completed accurately and on time. Client satisfaction is at the forefront of her priorities, and she consistently strives to exceed expectations and build strong relationships with those she serves.",
       name: "Mirela Georgieva",
       role: "Quebec Division",
-      tel: "+123 456 7890",
       email: "Mirela@NSPPay.com",
     },
     {
@@ -52,19 +60,11 @@ const Bios = () => {
       tel: "647-921-7933",
       email: "Spencer@NSPPay.com",
     },
-    {
-      image: "https://example.com/image5.jpg",
-      desc: "For the past eight years, I've dedicated myself to the dynamic realm of the payment industry. Serving as the Vice President of North Summit Payments, I oversee our esteemed US and Canadian referral partner channels, fostering strategic relationships for mutual success. My responsibilities extend to the meticulous management of our expansive 3000-strong merchant customer base, ensuring their satisfaction and loyalty. Collaborating seamlessly with our sales onboarding and tech teams, I am deeply committed to driving business growth through innovative solutions and unwavering support.",
-      name: "Shayne Christie",
-      role: "Vice President",
-      tel: "647-409-9895",
-      email: "Shayne@NSPPay.com",
-    },
   ];
 
   return (
-    <div className="py-[50px] bg-white md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
-      <div>
+    <section id="aboutus" className="py-[50px] bg-white md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
+      <div data-aos="fade-up" data-aos-duration="1000">
         <p className="text-[#1E4FFD] text-[20px]">The Faces of Innovation</p>
         <h1 className="text-4xl font-bold text-[#272932] pt-5 pb-11 lg:max-w-[500px]">
           Meet Our Experts
@@ -75,7 +75,7 @@ const Bios = () => {
           <BiosCard key={index} {...data}></BiosCard>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

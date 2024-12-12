@@ -1,8 +1,8 @@
 import avatar from "../assets/image 3.png";
 import icon from "../assets/”.svg"
-const BiosCard = ({ image, desc, name, role, tel, email }) => {
-  const truncatedDesc =
-    desc.length > 30 ? desc.substring(0, 100) + "..." : desc;
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+const BiosCard = ({ image, desc, name, role, tel, email, experience }) => {
   return (
     <div data-aos="zoom-in"
     data-aos-duration="600" className="p-4 md:p-5 lg:p-8 bg-[#F4F2F2] rounded-3xl space-y-10 flex flex-col relative">
@@ -11,7 +11,11 @@ const BiosCard = ({ image, desc, name, role, tel, email }) => {
         <div>
           <h4 className="font-semibold text-lg">{name}</h4>
           <h5 className="text-xs">{role}</h5>
-          <span>tel: {tel}</span>
+          {
+            experience ?  <p className="text-xs my-0.5">Experience: {experience} Years +</p> : ''
+          }
+          {tel ? <div className="flex gap-1 text-xs my-0.5"><BsFillTelephoneFill /> <span className="text-xs">{tel}</span></div> : ''}
+          <p className="text-xs flex gap-1 items-center"><MdEmail /><a href={email}>{email}</a></p>
         </div>
       </div>
       <p className="text-sm">{desc}</p>

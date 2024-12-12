@@ -9,7 +9,7 @@ import img7 from "../assets/products/kiosk-nav__1_.webp";
 
 const Products = () => {
   return (
-    <div className="py-[50px] bg-white md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
+    <section id="products" className="py-[50px] bg-white md:py-[100px] max-w-[1160px] mx-auto px-4 md:px-10  font-Space_Grotesk">
       <div className="md:flex lg:gap-20">
         <div data-aos="fade-up" data-aos-duration="1000">
           <p className="text-[#1E4FFD] text-[20px]">Products</p>
@@ -97,7 +97,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
