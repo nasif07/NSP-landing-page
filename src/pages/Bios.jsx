@@ -10,7 +10,7 @@ const Bios = () => {
       name: "Craig Brockie",
       role: "Partner & Co-Founder",
       experience: 15,
-      email: "Mirela@NSPPay.com",
+      email: "",
 
     },
     {
@@ -19,7 +19,7 @@ const Bios = () => {
       name: "Darren Brockic",
       role: "Managing Director & Co-Founder",
       experience: 15,
-      email: "Mirela@NSPPay.com",
+      email: "",
     },
     {
       image: "https://example.com/image5.jpg",

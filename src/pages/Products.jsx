@@ -1,11 +1,11 @@
 import img8 from "../assets/products/CA_-_Accessories_Devices_Menu.png";
 import img4 from "../assets/products/CA_Device_Menu__-_Station_Duo.png";
-import img6 from "../assets/products/CA_KDS_-_Device_Menu.png";
+import img7 from "../assets/products/CA_KDS_-_Device_Menu.png";
 import img5 from "../assets/products/CA_Mini_-_Device_Menu.png";
 import img3 from "../assets/products/CA_Station_Solo_Device_Menu_.png";
 import img2 from "../assets/products/flex_device_menu__1_.png";
 import img1 from "../assets/products/flexpocket_device_menu.png";
-import img7 from "../assets/products/kiosk-nav__1_.webp";
+import img6 from "../assets/products/kiosk-nav__1_.webp";
 
 const Products = () => {
   return (

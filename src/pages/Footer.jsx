@@ -21,7 +21,7 @@ const Footer = () => {
                         <FaLinkedin></FaLinkedin>
                     </div>
                     {/* <p className="text-white font-semibold text-[23px] lg:text-2xl text-center">Make your payment systems empower your business, not burden it.</p> */}
-                    <p className="text-white text-center font-bold underline"><a href="https://northsummitpayments.com/" target="_blank" rel="noreferrer" >northsummitpayments.com</a></p>
+                    <p className="text-white text-center font-bold underline"><a href="https://nsppay.com//" target="_blank" rel="noreferrer" >nsppay.com</a></p>
                    
                     <p className="text-white text-[10px] text-center">Pinnacle Payments Inc. Operates under the DBA name of North Summit Payments. North Summit Payments is a registered agent of First Data Canada Ltd and CardConnect (a First Data Company). All trade marks, service marks and trade names used in this material are the property of their respective owners.
                     </p>
